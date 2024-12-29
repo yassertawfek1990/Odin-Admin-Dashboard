@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+}
+.left{
+    width:20%;
+}
+.right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .bottom{
+    flex-grow: 1;
+    display: flex;
+    column-gap: 19px;
+    background-color:rgb(238, 240, 241);
+    padding: 15px;
+} */
+
+.bottom{
+    display: grid;
+    column-gap: 19px;
+    background-color:rgb(238, 240, 241);
+    padding: 15px;
+    grid-template-columns: 3fr 1fr;
+    /* grid-template-rows: repeat(4,1fr); */
+}
+.grid{
+    padding: 9px 0px;
+    display: flex;
+    flex-direction: column;
+    /* grid-row: 1/5 ;
+    grid-column: 1/4; */
+}
+.grid1{
+    /* flex-grow: 1; */
+    margin-top: 15px;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(2,1fr);
+    gap: 40px;
+    column-gap: 25px;
+    
+}
+.grids{
+    background-color: rgb(228, 117, 57);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px grey;
+}
+.g{
+    margin-left: 15px;
+    background-color: white;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.three{
+    margin: 30px 5px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 7px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.flex1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    /* grid-row: 1/3;
+    grid-column: 4/5; */
+
+    
+}
+.flexs{
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 10px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    
+
+}
+.trending{
+    margin-top: 20px;
+    /* grid-row: 3/5;
+    grid-column: 4/5; */
+}
+.apps{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px grey;
+
+
+    
+
+}
+.apps div{
+    display: flex;
+    column-gap: 15px;
+    padding: 5px 0px;
+}
+.apps div div{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+hr{
+    margin: 5px;
+}
+
+.dash{
+    display: flex;
+    column-gap: 4px;
+
+}
+.dash h3{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.left{
+    padding: 15px;
+    background-color: rgb(76, 180, 244);
+    color: white;
+}
+
+.side1, .side2{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.mainLink, .links{
+    display: flex;
+    gap: 11px;
+    
+}
+
+.left a{
+    color: white;
+}
+.left svg{
+    fill: white;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.yemen{
+    display: flex;
+    column-gap: 15px;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.nav{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.nav button{
+    background-color: rgb(76, 180, 244);
+    border-radius: 15px;
+    width: 55px;
+    height: 32px;
+    border: none;
+
+}
+
+.nav button a {
+    color: white;
+}
+
+input{
+    width: 80%;
+    border-radius: 15px;
+    height: 25px;
+    border: none;
+    background-color: rgba(231, 226, 226, 0.611);
+}
+
+form{
+    align-content: center;
+    flex-grow: 1;
+}
+
+.up button{
+    border: none;
+    background-color: white;
+}
